@@ -1,6 +1,6 @@
 $("document").ready(function(){
     $(".portfolio-img").hover(function(e){
-      const target =e.target;
+      const target = e.target;
 
       if(target.matches("img")){
 
