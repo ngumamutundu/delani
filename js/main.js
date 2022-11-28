@@ -5,7 +5,7 @@ $("document").ready(function(){
       if(target.matches("img")){
 
         const titlename = target.alt.toUpperCase();
-        $(target).pop("title", titlename)
+        $(target).prop("title", titlename)
       }
     })
 })
